@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct PrincessDetailView: View {
+    @SwiftUI.Environment(\.dismiss) var dismiss
     var princess: Princess
+    @EnvironmentObject var user: User
     
     var body: some View {
         ZStack {
@@ -26,7 +28,7 @@ struct PrincessDetailView: View {
                 .padding(.vertical, 10)
                 
                 VStack(alignment: .leading) {
-                    Text("\(princess.name), released \(String(princess.yearReleased))")
+                    Text("\(princess.name), released \(String(princess.yearReleased)) \(user.userName)")
                         .font(.title)
                         .padding(.bottom, 10)
                         .background(.white)
@@ -35,6 +37,10 @@ struct PrincessDetailView: View {
                 }
                 .background(.white)
                 .padding()
+                
+                Button("close") {
+                    dismiss()
+                }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
