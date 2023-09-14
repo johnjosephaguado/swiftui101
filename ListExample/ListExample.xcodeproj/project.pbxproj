@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67A5CE042AB2ECCB00581C05 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A5CE032AB2ECCB00581C05 /* API.swift */; };
+		67A5CE062AB2EDD000581C05 /* NetworkServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A5CE052AB2EDD000581C05 /* NetworkServiceManager.swift */; };
+		67A5CE082AB2F1F900581C05 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A5CE072AB2F1F900581C05 /* Landmark.swift */; };
+		67A5CE0A2AB2F5C800581C05 /* ReqResUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A5CE092AB2F5C800581C05 /* ReqResUser.swift */; };
 		67C7FD502AB0463F0068EAA5 /* RandomPrincessGeneratorStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C7FD4F2AB0463F0068EAA5 /* RandomPrincessGeneratorStateView.swift */; };
 		67C7FD522AB04BAB0068EAA5 /* RandomPrincessGeneratorStateObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C7FD512AB04BAB0068EAA5 /* RandomPrincessGeneratorStateObjectView.swift */; };
 		67C7FD542AB04C030068EAA5 /* RandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C7FD532AB04C030068EAA5 /* RandomGenerator.swift */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67A5CE032AB2ECCB00581C05 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		67A5CE052AB2EDD000581C05 /* NetworkServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceManager.swift; sourceTree = "<group>"; };
+		67A5CE072AB2F1F900581C05 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		67A5CE092AB2F5C800581C05 /* ReqResUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReqResUser.swift; sourceTree = "<group>"; };
 		67C7FD4F2AB0463F0068EAA5 /* RandomPrincessGeneratorStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPrincessGeneratorStateView.swift; sourceTree = "<group>"; };
 		67C7FD512AB04BAB0068EAA5 /* RandomPrincessGeneratorStateObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPrincessGeneratorStateObjectView.swift; sourceTree = "<group>"; };
 		67C7FD532AB04C030068EAA5 /* RandomGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGenerator.swift; sourceTree = "<group>"; };
@@ -76,6 +84,10 @@
 				67C7FD512AB04BAB0068EAA5 /* RandomPrincessGeneratorStateObjectView.swift */,
 				67C7FD532AB04C030068EAA5 /* RandomGenerator.swift */,
 				67C7FD552AB051380068EAA5 /* User.swift */,
+				67A5CE032AB2ECCB00581C05 /* API.swift */,
+				67A5CE052AB2EDD000581C05 /* NetworkServiceManager.swift */,
+				67A5CE072AB2F1F900581C05 /* Landmark.swift */,
+				67A5CE092AB2F5C800581C05 /* ReqResUser.swift */,
 			);
 			path = ListExample;
 			sourceTree = "<group>";
@@ -160,13 +172,17 @@
 			files = (
 				67C7FD542AB04C030068EAA5 /* RandomGenerator.swift in Sources */,
 				67C7FD522AB04BAB0068EAA5 /* RandomPrincessGeneratorStateObjectView.swift in Sources */,
+				67A5CE062AB2EDD000581C05 /* NetworkServiceManager.swift in Sources */,
 				67F33B852AA9BAFB00192372 /* PrincessDetailView.swift in Sources */,
 				67F33B832AA9B70900192372 /* Princess.swift in Sources */,
+				67A5CE042AB2ECCB00581C05 /* API.swift in Sources */,
 				67C7FD502AB0463F0068EAA5 /* RandomPrincessGeneratorStateView.swift in Sources */,
 				67C7FD562AB051380068EAA5 /* User.swift in Sources */,
 				67F33B752AA9B63100192372 /* ContentView.swift in Sources */,
 				67F33B732AA9B63100192372 /* ListExampleApp.swift in Sources */,
+				67A5CE0A2AB2F5C800581C05 /* ReqResUser.swift in Sources */,
 				67F33B812AA9B6F000192372 /* DynamicListView.swift in Sources */,
+				67A5CE082AB2F1F900581C05 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,10 +18,10 @@ struct ListExampleApp: App {
     
     var body: some Scene {
         WindowGroup {
-//            ContentView()
+            ContentView()
 //            DynamicListView(princesses: princesses)
 //            RandomPrincessGeneratorStateView(princesses: princesses)
-            RandomPrincessGeneratorStateObjectView(randomGenerator: randomGenerator)
+//            RandomPrincessGeneratorStateObjectView(randomGenerator: randomGenerator)
                 .environmentObject(user)
         }
     }
